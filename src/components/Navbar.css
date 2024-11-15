@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0d365c;
+    color: white;
+}
+.logo h1 {
+    margin: 0;
+}
+.search-bar input {
+    padding: 8px;
+    width: 200px;
+}
+.nav-links a, .nav-icons button {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .logo-search {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .nav-links,
+    .nav-icons {
+      display: none;
+    }
+  
+    .search-bar input {
+      padding: 8px;
+      width: 100%;
+    }
+  }
